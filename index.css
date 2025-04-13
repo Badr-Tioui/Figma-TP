@@ -1,0 +1,855 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.rond
+{
+    width: 7px;
+    height: 7px;
+    border-radius: 50px;
+    background-color: rgb(55, 0, 255);
+    margin-top: 33px;
+}
+
+.navbargauche
+{
+    display: flex;
+    color: white;
+    font-size: 13px;
+    margin-top: 9px;
+    
+}
+
+li
+{
+    list-style: none;
+    color: rgb(255, 255, 255);
+}
+.navbardroite
+{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+       
+}
+
+.but1
+{
+     border: none;
+     border-radius: 4px;
+     padding: 0.7rem 2.2rem;
+     background-color: rgb(57, 57, 151);
+     color: rgb(255, 255, 255);
+}
+
+.but1:hover
+{
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    background-color: blueviolet;
+    color: red;
+}
+
+.navbar
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(2, 193, 240);
+   
+   
+}
+
+.sectionfin
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sectionfin img
+{
+    display: flex;
+    height: 13px;
+    width: 27px;
+
+}
+
+.cercle11
+{
+    width: 400px; 
+    height: 400px;
+    border-radius: 50%; 
+    background: rgb(65, 198, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cercle22
+{
+    width: 250px; 
+    height: 250px;
+    border-radius: 50%;
+    background-color: rgb(2, 193, 240);
+}
+
+.TLA3
+{
+    position: relative;
+    bottom: 2px;
+    margin-right: 235px;
+    
+}
+.sectiondroite
+{
+    padding: 0;
+    position: relative;
+    top: 120px;
+}
+
+.jj
+{
+   
+    position: absolute;
+    right: 1px;
+    bottom: -210px;
+    
+}
+
+
+
+.title1
+{
+    color: white;
+    font-weight: bold;
+    font-family: "DM Sans", sans-serif;
+    font-size: 69px;
+    margin: 0;
+    padding: 0;
+}
+
+.bdir{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    position: relative;
+    bottom: 15px;
+}
+
+.tioui
+{
+    font-family: "DM Sans", sans-serif;
+    font-size: 13px;
+    color: white;
+}
+
+.sectiondebut
+{
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    margin-top: 32px;
+}
+
+
+.bntn1
+{
+    border :none;
+    border-radius: 4px;
+    padding: 1rem 2rem ;
+    color: rgb(0 203 255);
+    background-color: white;
+
+}
+.bntn1:hover
+{
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+
+.sectiongauche
+{
+    margin-top: 200px;
+    margin-left: 70px;
+}
+
+.sima
+{
+    position: relative;
+    bottom: 22px;
+}
+
+.section1
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(2, 193, 240);
+    height: 110vh;
+}
+  
+
+/*-------------------------*/
+
+.appli
+{
+    position: relative;
+    top: 140px;
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+}
+
+.taille1
+{
+    position: relative;
+    top: 50px;
+    margin-left: 120px;
+
+}
+.taille2
+{
+    position: absolute;
+    left: 20px;
+    width: 500px;
+    margin-left: 110px;
+}
+
+
+.secgauche
+{
+    margin-top: 350px;
+}
+
+
+.section2
+{
+ display: flex;
+ align-items: center; 
+ gap: 120px;
+}
+
+.p0
+{
+    color: #034D82;
+    font-weight: bold;
+    font-family: "DM Sans", sans-serif;
+    font-size: 44px;
+}
+
+.p1
+{
+    font-family: "DM Sans", sans-serif;
+    color: #90A3B4;
+}
+
+
+.sectionfin p
+{
+    color: #04AADD;
+    font-weight: bold;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+.sectionfin img
+{
+      width: 20px;
+}
+
+.secdroit
+{
+    position: relative;
+    top: 45px;
+}
+
+
+
+/* --------------------------Partie a reprendrre -------------------*/
+
+
+.elementsection
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.elementsection img
+{
+    width :16px;
+    height :20px;
+
+}
+
+
+.section1fin
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.section1fin img
+{
+    height: 20px;
+    width: 27px;
+}
+
+
+.title
+{
+    color: #034D82;
+    font-weight: bold;
+    font-family: "DM Sans", sans-serif;
+}
+
+.dessection1gauche
+{
+    font-family: "DM Sans", sans-serif;
+    color: #90A3B4;
+}
+
+.section1gaucheliste p
+{
+    font-family: "DM Sans", sans-serif;
+    color: #90A3B4;
+}
+
+.section1fin p
+{
+    color: #04AADD;
+    font-weight: bold;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+.section12
+{
+    display: flex;
+    padding: 7rem;
+    align-items: center;
+}
+
+.section1droite
+{
+    width: 50%;
+}
+
+.section1gauche
+{
+    width: 50%;
+}
+.section1droite img
+ {
+   position: relative;
+   top: 40px;
+ }
+
+/* Format de telephone */
+
+
+@media screen and (max-width:390px) 
+{
+    .section12
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 0rem;
+    }
+
+    .section1gauche
+    {
+        width: 100%;
+    }
+    .section1droite
+    {
+        width: 100%;
+    }
+    .section1droite img
+    {
+        margin-top: 2rem;
+    }
+    
+    .title{
+        text-align: center;
+    }
+
+    .dessection1gauche
+    {
+        text-align: center;
+    }
+
+    .section1gaucheliste
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .section1droite
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   
+    .section1droite img{
+        width: 80%;
+    }
+
+    .section1fin
+    {
+        justify-content: center;
+    }
+
+
+}
+
+
+/*-----------------------------------------------*/
+
+.lila
+{
+    color: #034D82;
+    font-weight: bold;
+    font-family: "DM Sans", sans-serif;
+    font-size: 38px;
+}
+
+.lili
+{
+    font-family: "DM Sans", sans-serif;
+    color: #90A3B4;
+}
+
+.liloh
+{
+    text-align: center;
+}
+
+.care
+{
+    width: 258px ;
+    height: 300px;
+    background-color: #ffffff;
+    
+}
+
+.care img
+{
+    position: relative;
+    left: 30px;
+    margin-top: 29px;
+}
+
+.care:hover
+{
+    background-color: rgb(0, 234, 255);
+    cursor: pointer;
+    transition: 0.5s  ease-in-out;
+}
+
+
+.fifo1
+{
+    color: #034D82;
+    font-weight: bold;
+    font-family: "DM Sans", sans-serif;
+    font-size: 21px;
+    position: relative;
+    left: 30px;
+}
+
+.fifa
+{
+    font-family: "DM Sans", sans-serif;
+    color: #90A3B4;
+    position: relative;
+    left: 30px;
+}
+.Descorne
+{
+    display: flex;
+    gap: 38px;
+    justify-content: center;
+    margin-top: 80px;
+  
+}
+
+.section3
+{
+    background-color: #e7f7ff;
+    height: 79vh;
+}
+
+/*----------------------------*/
+
+
+.foola
+{
+    color: #034D82;
+    font-weight: bold;
+    font-family: "DM Sans", sans-serif;
+    font-size: 21px;
+}
+
+.foola1
+{
+    font-family: "DM Sans", sans-serif;
+    color: #90A3B4;
+    font-size: 15px;
+}
+.Esisa
+{
+   position: relative;
+   left: 18px;
+}
+.secmec123
+{
+    display: flex;
+    align-items: center;
+}
+
+.FF1{
+    font-family: "DM Sans", sans-serif;
+    color: #90A3B4;
+    font-size: 15px;
+}
+
+.section4droite{
+    display: flex;
+    align-items: center;
+}
+
+.mama
+{
+    position: relative;
+    bottom: 90px;
+    align-items: start;
+}
+
+.baba
+{
+    padding: 0;
+    position: relative;
+    right: 50px;
+    top: 68px;
+}
+
+.kora
+{
+    color: #034D82;
+    font-weight: bold;
+    font-family: "DM Sans", sans-serif;
+    font-size: 38px;
+}
+
+.kora1
+{
+    font-family: "DM Sans", sans-serif;
+    color: #90A3B4;
+    font-size: 17px;
+}
+
+
+.section4
+{
+    display: flex;
+    margin-top: 199px;
+    justify-content: space-around;
+  
+}
+
+.rondd
+{
+    width: 9px;
+    height: 9px;
+    border-radius: 50px;
+    background-color: rgb(8, 8, 126);
+}
+
+.rondd1
+{
+    width: 9px;
+    height: 9px;
+    border-radius: 50px;
+    background-color: rgb(223, 220, 220);
+}
+
+.rondtotal
+{
+    display: flex;
+    gap: 5px;
+    justify-content: end;
+    position: relative;
+    right: 599px;
+    top: 18px;
+}
+
+/*--------------------------------------*/
+
+
+.media
+{
+    font-family: "DM Sans", sans-serif;
+    color: #ffffff;
+    margin-left: 70px;
+    position: relative;
+    top: 40px;
+}
+
+.trial
+{
+    font-family: "DM Sans", sans-serif;
+    color: #ffffff;
+    margin-left: 70px;
+    position: relative;
+    top: 52px;
+}
+
+.rannd
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -15px;
+    border: 3px solid white; 
+    
+   
+   
+    
+}
+
+.un
+{
+    background-image: url(https://th.bing.com/th/id/OIP.Dn-8K_TiXbuob_1fMEFurQAAAA?rs=1&pid=ImgDetMain) ;
+    object-fit: cover;
+    
+    
+}
+
+.deux
+{
+    
+    background-image: url(https://lirp.cdn-website.com/715c1629/dms3rep/multi/opt/115494619_m-1920w.jpg);
+    background-color: rgb(0, 0, 244);
+}
+
+
+.trois
+{
+    background-color: blue;
+    background-image: url(https://th.bing.com/th/id/OIP.HQacPIsLVNIAih74tt3HUQHaE7?w=626&h=417&rs=1&pid=ImgDetMain);
+}
+
+
+.quatre
+{
+    background-color: blue;
+    background-image: url(https://img.freepik.com/premium-photo/triumphant-business-team-standing-conference-room-winning-concept_252847-4771.jpg) ;
+}
+
+
+.cinq
+{
+    background-color: blue;
+    background-image: url(https://img.freepik.com/premium-photo/friendly-smiling-businessman-looking-camera-with-reliability-isolated-white-background_1182900-69783.jpg) ;
+}
+
+.Missopa
+{
+    display: flex;
+    align-items: center;
+    margin-left: 85px;
+    position: relative;
+    top: 50px;
+
+}
+
+u{
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+.section5
+{
+    height: 40vh;
+    background-color: rgb(9, 203, 229);
+    margin-top: 270px;
+    width: 78%;
+    height: 367px;
+    margin-left: 120px;
+    display: flex;
+    border-radius: 6px;
+}
+
+.balise
+{
+    margin-left: 550px;
+    margin-top: 150px;
+    border: none;
+    color: #04AADD;
+    border-radius: 4px;
+    padding: 1rem 2.3rem;
+}
+
+.balise:hover
+{
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    background-color: rgb(48, 251, 2);
+    color:#034D82;
+
+}
+
+
+/*/-----------------------------------------------*/
+
+.zaza
+{
+    font-family: "DM Sans", sans-serif;
+    color: #ffffff;
+    font-size: 35px;
+    
+}
+
+
+.rund
+{
+    width: 7px;
+    height: 7px;
+    border-radius: 50px;
+    background-color: rgb(55, 0, 255);
+    
+}
+
+.ooop
+{
+    font-family: "DM Sans", sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+   
+}
+
+
+.section6gauche
+{
+    display: flex;
+    color: white;
+    font-size: 13px;
+    margin-top: 9px;
+    align-items: center;
+ 
+    
+}
+
+.section6droite
+{
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 85px;
+   
+}
+ 
+
+.sectionMM
+{
+    
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+   
+}
+
+
+.luffo
+{
+    color: rgb(165, 165, 165);
+    font-family: "DM Sans", sans-serif;
+    position: relative;
+    top: 17px;
+}
+
+.luffi
+{
+    color: rgb(165, 165, 165);
+    font-family: "DM Sans", sans-serif;
+    position: relative;
+   bottom: 13px;
+}
+
+
+.socialmedia
+{
+    position: relative;
+    bottom: 3px;
+    display: flex;
+    gap: 10px;
+
+}
+
+.socialmedia i{
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #282830;
+    color: white;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+   
+}
+.sectionTioui
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 99px;
+    position: relative;
+    left: 150px;
+    
+ 
+}
+
+
+/*----------------*/
+
+.imger
+{
+    margin-top: 449px;
+    position: relative;
+    right:310px;
+}
+.final
+{
+    color: rgb(255, 255, 255);
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    margin-top: 530px;
+    position: relative;
+    right:457px;
+   
+}
+
+.section6
+{
+    display: flex;
+    background-color: black;
+    height: 84vh;
+    margin-top: 200px;
+}
